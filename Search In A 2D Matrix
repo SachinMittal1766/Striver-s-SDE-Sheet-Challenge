@@ -1,0 +1,19 @@
+#include <bits/stdc++.h> 
+#include <vector>
+
+bool findTargetInMatrix(vector < vector < int >> & mat, int m, int n, int target) {
+    // Write your code here.  
+        int top = m-1;
+        int right = 0;
+        
+        while( top >= 0 && right <= n-1){
+            if(mat[top][right] == target)
+                return true;
+            else if(mat[top][right] > target)
+                top--;
+            else if(mat[top][right] < target)
+                right++;
+            
+        }
+        return false;
+}
