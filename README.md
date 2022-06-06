@@ -4,3 +4,4 @@
 | ------------- | ------------- |
 | 1  | Intersection of Two Linked Lists  |
 | 2  | Set Matrix Zeros  |
+| 3 | Find Duplicate in Array |
