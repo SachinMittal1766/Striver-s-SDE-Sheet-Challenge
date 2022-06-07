@@ -2,13 +2,27 @@
 
 | Sr. No.  | Problem |
 | ------------- | ------------- |
-| 1  | Intersection of Two Linked Lists  |
-| 2  | Set Matrix Zeros  |
-| 3  | Find Duplicate in Array |
-| 4  | Remove Duplicates from Sorted Array |
-| 5  | Merge Two Sorted Linked Lists |
-| 6  | Sort 0 1 2 |
-| 7  | Search In A 2D Matrix |
-| 8  | Majority element |
-| 9  | Majority Element - II |
-| 10  | Pair Sum |
+|   **DAY 1**  |
+| 1 | Intersection of Two Linked Lists  |
+| 2 | Set Matrix Zeros  |
+| 3 | Find Duplicate in Array |
+| 4 | Remove Duplicates from Sorted Array |
+| 5 | Merge Two Sorted Linked Lists |
+| 6 | Sort 0 1 2 |
+| 7 | Search In A 2D Matrix |
+| 8 | Majority element |
+| 9 | Majority Element - II |
+| 10 | Pair Sum |
+|   **DAY 2**  |
+| 11 | Pascal's Triangle |
+| 12 | Longest Subarray Zero Sum |
+| 13 | Middle Of Linked List |
+| 14 | Delete Node In A Linked List |
+| 15 | Palindrome Linked List |
+| 16 | Flatten A Linked List |
+| 17 | Find Minimum Number Of Coins |
+| 18 | Nth Root Of M |
+| 19 | Single Element in a Sorted Array |
+| 20 | |
+| 21 ||
+
