@@ -1,0 +1,70 @@
+class Node {
+public :
+    int data;
+    Node *next;
+
+    Node(int data) {
+        this->data = data;
+        next = NULL;
+    }
+};
+
+class Queue {
+public:
+    Node *head;
+    Node *tail;
+    int size;
+
+    Queue() {
+        head = NULL;
+        tail = NULL;
+        size = 0;
+    }
+
+    bool isEmpty() {
+        if(size)
+            return false;
+        return true;
+    }
+
+    void enqueue(int data) {
+        Node *newNode = new Node(data);
+        size++;
+
+        if (head == NULL) {
+            head = newNode;
+            tail = newNode;
+            return;
+        }
+
+        tail->next = newNode;
+        tail = newNode;
+        return;
+    }
+
+    int dequeue() {
+        if (isEmpty()) {
+            return -1;
+        }
+
+        int result = head->data;
+        Node *temp = head;
+        head = head->next;
+
+        if (head == NULL) {
+            tail = NULL;
+        }
+        delete temp;
+        size--;
+
+        return result;
+    }
+
+    int front() {
+        if (isEmpty())  {
+            return -1;
+        }
+
+        return head->data;
+    }
+};
