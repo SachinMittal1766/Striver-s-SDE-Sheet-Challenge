@@ -23,6 +23,7 @@
 | 17 | Find Minimum Number Of Coins |
 | 18 | Nth Root Of M |
 | 19 | Single Element in a Sorted Array |
-| 20 | |
+|   **DAY 3**  |
+| 20 | Reverse Linked List |
 | 21 ||
 
