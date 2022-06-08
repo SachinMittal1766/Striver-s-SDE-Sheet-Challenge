@@ -1,0 +1,59 @@
+// Stack class.
+class Stack {
+    
+public:
+    vector<int> myStack;
+    int stackSize;
+    int capacity;
+    
+    Stack(int capacity) {
+        this -> myStack.resize(capacity);
+        this -> stackSize = -1;
+        this -> capacity = capacity;
+    }
+
+    void push(int num) {
+        if(stackSize != capacity - 1) {
+            ++stackSize;
+            myStack[stackSize] = num;
+        }
+    }
+
+    int pop() {
+        if(stackSize != -1) {
+            --stackSize;
+            return myStack[stackSize + 1];
+        }
+        else {
+            return -1;
+        }
+    }
+    
+    int top() {
+        if(stackSize != -1) {
+            return myStack[stackSize];
+        }
+        else {
+            return -1;
+        }
+    }
+    
+    int isEmpty() {
+        if(stackSize != -1) {
+            return 0;
+        }
+        else {
+            return 1;
+        }        
+    }
+
+    int isFull() {
+        if(stackSize != capacity - 1) {
+            return 0;
+        }
+        else {
+            return 1;
+        }        
+    }
+    
+};
