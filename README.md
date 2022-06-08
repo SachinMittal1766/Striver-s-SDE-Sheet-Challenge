@@ -28,7 +28,7 @@
 | 21 | Stack Implementation Using Array |
 | 22 | Implement a Queue |
 | 23 | Valid Parentheses |
-| 24 ||
-| 25 ||
-| 26 ||
+| 24 | Next Greater Element |
+| 25 | Next Smaller Element |
+| 26 | Sort a Stack |
 | 27 ||
