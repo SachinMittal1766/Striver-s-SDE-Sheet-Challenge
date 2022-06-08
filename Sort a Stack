@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+
+void sortStack(stack<int> &stack)
+{
+	// Write your code here
+    vector<int> help;
+    while(!stack.empty()){
+        help.push_back(stack.top());
+        stack.pop();
+    }
+    
+    sort(help.begin(), help.end());
+    
+    for(int i=0; i<help.size(); i++){
+        stack.push(help[i]);
+    }
+    
+}
