@@ -25,5 +25,10 @@
 | 19 | Single Element in a Sorted Array |
 |   **DAY 3**  |
 | 20 | Reverse Linked List |
-| 21 ||
-
+| 21 | Stack Implementation Using Array |
+| 22 | Implement a Queue |
+| 23 | Valid Parentheses |
+| 24 ||
+| 25 ||
+| 26 ||
+| 27 ||
