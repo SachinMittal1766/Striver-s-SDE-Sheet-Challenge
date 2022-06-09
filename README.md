@@ -25,7 +25,7 @@
 |   **DAY 4**  |
 | 27 | Copy List with Random Pointer | 28 | Maximum meetings |
 | 29 | Maximum activities | 30 | Subset Sum | 
-| 30 | Cycle Detection in a Singly Linked List | 31 | Linked List Cycle II |
-| 31 | Rotate Linked List |||
+| 31 | Cycle Detection in a Singly Linked List | 32 | Linked List Cycle II |
+| 33 | Rotate Linked List |||
 |||||
 |||||
