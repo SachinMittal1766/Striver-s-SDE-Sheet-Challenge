@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+
+vector<int> subsetSum(vector<int> &num)
+{
+    // Write your code here.
+    int n = num.size();
+    int sum;
+    vector<int> ans;
+    int last = pow(2,n);
+    for(int i=0; i<last; i++){
+        sum = 0;
+        for(int j=0; j<n; j++){
+            if((1<<j) & i){
+                sum += num[j];
+            }
+        }
+        ans.push_back(sum);
+    }
+    
+    sort(ans.begin(), ans.end());
+    return ans;
+}
