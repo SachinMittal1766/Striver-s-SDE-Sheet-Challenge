@@ -26,6 +26,7 @@
 | 27 | Copy List with Random Pointer | 28 | Maximum meetings |
 | 29 | Maximum activities | 30 | Subset Sum | 
 | 31 | Cycle Detection in a Singly Linked List | 32 | Linked List Cycle II |
-| 33 | Rotate Linked List |||
-|||||
+| 33 | Rotate Linked List |
+|  **DAY 5** |
+| 34 | Modular Exponentiation | 35 | Delete Kth node From End |
 |||||
