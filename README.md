@@ -27,6 +27,9 @@
 | 29 | Maximum activities | 30 | Subset Sum | 
 | 31 | Cycle Detection in a Singly Linked List | 32 | Linked List Cycle II |
 | 33 | Rotate Linked List |
+| | |
 |  **DAY 5** |
 | 34 | Modular Exponentiation | 35 | Delete Kth node From End |
-|||||
+| | |
+|  **DAY 6** |
+| 36 | Queue Using Stack | 37 | Stack using queue | 
