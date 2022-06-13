@@ -33,3 +33,7 @@
 | | |
 |  **DAY 6** |
 | 36 | Queue Using Stack | 37 | Stack using queue | 
+| | |
+|  **DAY 7** |
+| 38 | Fractional Knapsack | 39 | Print Permutations - String |
+| 40 |  | 41 |  |
