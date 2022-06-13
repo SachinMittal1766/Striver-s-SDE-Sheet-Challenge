@@ -36,4 +36,4 @@
 | | |
 |  **DAY 7** |
 | 38 | Fractional Knapsack | 39 | Print Permutations - String |
-| 40 |  | 41 |  |
+| 40 | Power Set | 41 |  |
