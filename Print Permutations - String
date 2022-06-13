@@ -1,0 +1,24 @@
+void makePre(int index, string &s, vector<string> &ans){
+    int n = s.length();
+    if(index == n){
+        string help;
+        for(int i=0; i<n; i++){
+            help += s[i];
+        }
+        ans.push_back(help);
+        return;
+    }
+    
+    for(int i=index; i<n; i++){
+        swap(s[index], s[i]);
+        makePre(index+1, s, ans);
+        swap(s[index], s[i]);
+    }
+}
+ 
+vector<string> findPermutations(string &s) {
+    // Write your code here.
+    vector<string> ans;
+    makePre(0,s,ans);
+    return ans;
+}
