@@ -1,0 +1,23 @@
+#include <bits/stdc++.h> 
+
+pair<int,int> missingAndRepeating(vector<int> &arr, int n)
+{
+	// Write your code here 
+	pair<int,int> ans;
+    int repNum(0), misNum(0);
+    int natSum = n*(n+1)/2;
+    int arrSum = 0;
+    sort(arr.begin(), arr.end());
+    
+    for(int i=0; i<n-1; i++){
+        if(arr[i] == arr[i+1]){
+            repNum = arr[i];
+        }
+        arrSum += arr[i];
+    }
+    arrSum += arr[n-1];
+    misNum = natSum - arrSum + repNum;
+    ans.first = misNum;
+    ans.second = repNum;
+    return ans;
+}
