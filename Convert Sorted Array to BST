@@ -1,0 +1,37 @@
+/************************************************************
+
+    Following is the TreeNode class structure
+
+    template <typename T>
+    class TreeNode {
+       public:
+        T val;
+        TreeNode<T> *left;
+        TreeNode<T> *right;
+        
+        TreeNode(T val) {
+            this->val = val;
+            left = NULL;
+            right = NULL;
+        }
+    };
+
+************************************************************/
+TreeNode<int>* ans(vector<int> &arr, int start, int end){
+    if(start > end)
+        return NULL;
+    
+    int mid = (start + end)/2;
+    TreeNode<int>* root = new TreeNode<int>(-1);
+    root->val = arr[mid];
+    root->left = ans(arr, start, mid-1);
+    root->right = ans(arr, mid+1, end);
+    
+    return root;
+}
+
+TreeNode<int>* sortedArrToBST(vector<int> &arr, int n)
+{
+    // Write your code here
+    return ans(arr, 0, n-1);
+}
