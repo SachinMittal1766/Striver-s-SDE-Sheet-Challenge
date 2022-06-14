@@ -40,4 +40,6 @@
 | | |
 |  **DAY 8** |
 | 42 | Maximum Subarray Sum | 43 | Best Time to Buy and Sell Stock |
-| 44 | | 45 | | 
+| 44 | Next Permutation | 45 | Merge Two Sorted Arrays | 
+| 46 | Missing and repeating numbers | 47 | Unique Paths |
+| 48 | | 49 | | 
