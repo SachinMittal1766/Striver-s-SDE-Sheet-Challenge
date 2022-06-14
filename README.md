@@ -37,4 +37,7 @@
 |  **DAY 7** |
 | 38 | Fractional Knapsack | 39 | Print Permutations - String |
 | 40 | Power Set | 41 | Min Stack |
-| 42 | 
+| | |
+|  **DAY 8** |
+| 42 | Maximum Subarray Sum | 43 | Best Time to Buy and Sell Stock |
+| 44 | | 45 | | 
