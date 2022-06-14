@@ -44,4 +44,7 @@
 | 46 | Missing and repeating numbers | 47 | Unique Paths |
 | 48 | Left View Of a Binary Tree | 49 | Level Order Traversal | 
 | 50 | Diameter Of Binary Tree | 51 | Search In BST |
+| 52 | Convert Sorted Array to BST |
+| | |
+
 
