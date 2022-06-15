@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+
+string reverseString(string str)
+{
+    // Write your code here.
+    string ans = "";
+    if(str == "" || str == " ")
+        return ans;
+    
+    int n = str.length() - 1;
+    while(n >= 0){
+        if(str[n] == ' '){
+            n--;
+        }else{
+            if(ans.length() > 0){
+                ans.push_back(' ');
+            }
+            
+            int i = n;
+            while(i >= 0 && str[i] != ' '){
+                i--;
+            }
+            
+            ans.append(str.substr(i+1, n-i));
+            n = i;
+        }
+    }
+    return ans;
+}
