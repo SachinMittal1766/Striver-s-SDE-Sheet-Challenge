@@ -1,0 +1,48 @@
+/*
+	This is signature of helper function 'knows'.
+	You should not implement it, or speculate about its implementation.
+
+	bool knows(int A, int B); 
+	Function 'knows(A, B)' will returns "true" if the person having
+	id 'A' know the person having id 'B' in the party, "false" otherwise.
+*/
+#include<bits/stdc++.h>
+
+int findCelebrity(int n) {
+ 	// Write your code here.
+    stack<int> st;
+    for(int i=0; i<n; i++){
+        st.push(i);
+    }
+    
+    while(st.size() != 1){
+        int A = st.top();
+        st.pop();
+        int B = st.top();
+        st.pop();
+        
+        if(knows(A,B)){
+            st.push(B);
+        }else{
+            st.push(A);
+        }
+    }
+    
+    int celebIdx = st.top();
+    int rowCount(0), colCount(0);
+    
+    for(int i=0; i<n; i++){
+        if(!knows(celebIdx,i))
+            rowCount++;
+    }
+    
+    for(int i=0; i<n; i++){
+        if(knows(i, celebIdx))
+            colCount++;
+    }
+    
+    if(rowCount == n && colCount == n-1)
+        return celebIdx;
+    else
+        return -1;
+}
