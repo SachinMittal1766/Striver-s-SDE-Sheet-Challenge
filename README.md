@@ -52,4 +52,4 @@
 | 57 | LCA Of Binary Tree | 58 | Connect Nodes at Same Level | 
 | | |
 |  **DAY 10** |
-| 59 | Min Heap | 60 |
+| 59 | Min Heap | 60 | The Celebrity Problem |
