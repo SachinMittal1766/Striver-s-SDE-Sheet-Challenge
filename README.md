@@ -50,4 +50,6 @@
 | 53 | Chess Tournament | 54 | Reverse Words In A String |
 | 55 | Bottom View Of Binary Tree | 56 | Vertical Order Traversal | 
 | 57 | LCA Of Binary Tree | 58 | Connect Nodes at Same Level | 
-| 59 |  | 60 |
+| | |
+|  **DAY 10** |
+| 59 | Min Heap | 60 |
