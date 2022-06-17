@@ -56,5 +56,6 @@
 | | |
 |  **DAY 11** |
 | 61 | Rotate Matrix | 62 | Merge Intervals |
-| 63 |  | 64 |  | 
+| 63 | Check Identical Trees | 64 | Symmetric Tree | 
+| 65 | Top View Of Binary Tree | 66 | |
 
