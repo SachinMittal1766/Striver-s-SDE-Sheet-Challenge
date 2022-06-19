@@ -63,4 +63,4 @@
 | 67 | 3Sum | 
 | | |
 |  **DAY 12** |
-| 69 | K Most Frequent Elements | 70 | | 
+| 69 | K Most Frequent Elements | 70 | Longest Consecutive Sequence | 
