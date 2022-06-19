@@ -60,4 +60,7 @@
 | 65 | Top View Of Binary Tree | 66 | Find Four Elements That Sums To A Given Value |
 | | |
 |  **DAY 12** |
-| 67 | 3Sum | 68 | | 
+| 67 | 3Sum | 
+| | |
+|  **DAY 12** |
+| 69 | K Most Frequent Elements | 70 | | 
