@@ -65,4 +65,5 @@
 |  **DAY 12** |
 | 69 | K Most Frequent Elements | 70 | Longest Consecutive Sequence | 
 | 71 | Search In Rotated Sorted Array | 72 | Roman Numeral To Integer | 
-
+| 73 | Implement Atoi Function | 74 | Check Permutation |
+| 75 |  | 76 | |
