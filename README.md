@@ -68,4 +68,6 @@
 | 73 | Implement Atoi Function | 74 | Check Permutation |
 | | |
 |  **DAY 13** |
-| 75 | Minimum Number of Platforms | 76 | |
+| 75 | Minimum Number of Platforms | 76 | Job Sequencing Problem |
+| 77 | Matrix Median | 78 | Merge K Sorted Arrays | 
+| 79 |  | 80 |  |
