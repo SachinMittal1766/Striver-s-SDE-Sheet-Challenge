@@ -70,4 +70,5 @@
 |  **DAY 13** |
 | 75 | Minimum Number of Platforms | 76 | Job Sequencing Problem |
 | 77 | Matrix Median | 78 | Merge K Sorted Arrays | 
-| 79 | Median of two sorted arrays | 80 |  |
+| 79 | Median of two sorted arrays | 80 | Inorder Traversal |
+
