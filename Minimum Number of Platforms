@@ -1,0 +1,25 @@
+int calculateMinPatforms(int at[], int dt[], int n) {
+   vector<pair<int, int>> train;
+    for(int i=0; i<n; i++){
+        train.push_back({at[i], dt[i]});
+    }
+    sort(train.begin(), train.end());
+    priority_queue<int, vector<int>, greater<int>> depat;
+    depat.push(train[0].second);
+    int platform = 1;
+    for(int i=1; i<n; i++){
+        if(depat.top() < train[i].first){
+            depat.pop();
+            depat.push(train[i].second);
+            int size = depat.size();
+            if(size > platform)
+                platform = size;
+        }else{
+            depat.push(train[i].second);
+            int size = depat.size();
+            if(size > platform)
+                platform = size;
+        }
+    }
+    return platform;
+}
