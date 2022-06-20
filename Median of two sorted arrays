@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+
+double median(vector<int> a, vector<int> b)
+{
+    // Write your code here.
+    int n = a.size();
+    int m = b.size();
+    vector<int> ans;
+    
+    for(int i=0; i<n; i++){
+        ans.push_back(a[i]);
+    }
+    
+    for(int i=0; i<m; i++){
+        ans.push_back(b[i]);
+    }
+    sort(ans.begin(), ans.end());
+    
+    double median = 0;
+    int totalNum = m+n;
+    if(totalNum%2 == 0){
+        median = (double)ans[totalNum/2]/(double)2.0 + (double)ans[totalNum/2 - 1]/(double)2.0;
+    }else{
+        median = (double)ans[totalNum/2];
+    }
+    
+    return median;
+}
