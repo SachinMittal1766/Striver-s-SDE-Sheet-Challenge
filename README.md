@@ -74,6 +74,6 @@
 | | |
 |  **DAY 14** |
 | 81 | Construct Binary Tree From Inorder and Preorder Traversal | 82 | Kth Element of Two Sorted Arrays |
-| 83 | | 84 | |
-| 85 | | 86 | |
+| 83 | K-th largest Number BST | 84 | |
+| 85 | Ceil from BST | 86 | Floor in BST |
 | 87 | | 88 | |
