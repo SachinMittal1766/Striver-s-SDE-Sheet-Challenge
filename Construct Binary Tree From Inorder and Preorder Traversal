@@ -1,0 +1,35 @@
+TreeNode<int> *constructTree(int inStart, int inEnd, int &pIndex, vector<int> &inorder, vector<int> &preorder){
+    if (inStart > inEnd){
+        return NULL;
+    }
+
+    int rootNode = preorder[pIndex];
+    pIndex = pIndex + 1;
+    TreeNode<int> *root = new TreeNode<int>(rootNode);
+
+    if (inStart == inEnd){
+        return root;
+    }else{
+        int inIndex;
+        for (int i = inStart; i <= inEnd; i++){
+            if (rootNode == inorder[i]){
+                inIndex = i;
+                break;
+            }
+        }
+
+        TreeNode<int> *leftChild = constructTree(inStart, inIndex - 1, pIndex, inorder,preorder);
+        TreeNode<int> *rightChild = constructTree(inIndex + 1, inEnd, pIndex, inorder, preorder);
+
+        root->left = leftChild;
+        root->right = rightChild;
+
+        return root;
+    }
+}
+
+TreeNode<int> *buildBinaryTree(vector<int> &inorder, vector<int> &preorder)
+{
+    int pIndex = 0;
+    return constructTree(0, inorder.size() - 1, pIndex, inorder, preorder);
+}
