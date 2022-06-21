@@ -71,4 +71,9 @@
 | 75 | Minimum Number of Platforms | 76 | Job Sequencing Problem |
 | 77 | Matrix Median | 78 | Merge K Sorted Arrays | 
 | 79 | Median of two sorted arrays | 80 | Inorder Traversal |
-
+| | |
+|  **DAY 14** |
+| 81 | Construct Binary Tree From Inorder and Preorder Traversal | 82 | Kth Element of Two Sorted Arrays |
+| 83 | | 84 | |
+| 85 | | 86 | |
+| 87 | | 88 | |
