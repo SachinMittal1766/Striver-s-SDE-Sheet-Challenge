@@ -78,4 +78,7 @@
 | 85 | Ceil from BST | 86 | Floor in BST |
 | | |
 |  **DAY 15** |
-| 87 | Construct Binary Tree from Inorder and Postorder Traversal | 88 | |
+| 87 | Construct Binary Tree from Inorder and Postorder Traversal | 
+| | |
+|  **DAY 16** |
+| 88 | Valid Sudoku | 89 | |
